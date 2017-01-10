@@ -1,9 +1,9 @@
 resources:
   - name: pipelines-demo-image
     type: image
-    integration: shipdeploy
+    integration: github-integration
     pointer:
-      sourceName: "shippablesamples/samplepipelinesdemo"
+      sourceName: "inslabshippable/samplepipelinesdemo"
       isPull: false
     seed:
       versionName: "latest"
@@ -16,7 +16,7 @@ resources:
 
   - name: ecs-cluster
     type: cluster
-    integration: aws
+    integration: aws-integration
     pointer:
-      sourceName : "my-cluster" #name of the cluster to which we are deploying
-      region: "us-west-2"
+      sourceName : "testcluster" #name of the cluster to which we are deploying
+      region: "ap-northeast-1"
