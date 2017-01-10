@@ -3,7 +3,7 @@ resources:
     type: image
     integration: dockerhub-integration
     pointer:
-      sourceName: "samplepipelinesdemo"
+      sourceName: "inslabshippable/samplepipelinesdemo"
       isPull: false
     seed:
       versionName: "latest"
