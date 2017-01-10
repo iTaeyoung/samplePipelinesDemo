@@ -1,7 +1,7 @@
 resources:
   - name: pipelines-demo-image
     type: image
-    integration: github-integration
+    integration: dockerhub-integration
     pointer:
       sourceName: "inslabshippable/samplepipelinesdemo"
       isPull: false
