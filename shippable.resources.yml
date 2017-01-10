@@ -18,5 +18,5 @@ resources:
     type: cluster
     integration: aws-integration
     pointer:
-      sourceName : "testcluster" #name of the cluster to which we are deploying
+      sourceName : "inslabcluster"
       region: "ap-northeast-1"
