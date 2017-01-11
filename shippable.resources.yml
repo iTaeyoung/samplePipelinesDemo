@@ -18,5 +18,5 @@ resources:
     type: cluster
     integration: aws-integration
     pointer:
-      sourceName : "default"
+      sourceName : "inslabcluster"
       region: "us-east-1"
