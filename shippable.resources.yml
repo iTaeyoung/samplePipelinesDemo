@@ -12,11 +12,11 @@ resources:
     type: dockerOptions
     version:
       portMappings:
-        - 80:80
+        - :80
 
   - name: ecs-cluster
     type: cluster
     integration: aws-integration
     pointer:
-      sourceName : "inslabcluster"
+      sourceName : "default"
       region: "us-east-1"
