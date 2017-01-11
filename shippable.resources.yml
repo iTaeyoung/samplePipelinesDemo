@@ -40,4 +40,10 @@ resources:
       sourceName : "inslabcluser"
       region: "us-east-1"
 
+#add Release step
+  - name: demo-ver
+    type: version
+    seed:
+      versionName: "1.0.0"
+
 #######1: EOF Create DV pipeline
