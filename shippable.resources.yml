@@ -12,7 +12,7 @@ resources:
     type: dockerOptions
     version:
       portMappings:
-        - 8080:80
+        - 80:80
 
   - name: ecs-cluster
     type: cluster
