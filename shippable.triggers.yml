@@ -1,5 +1,0 @@
-triggers:
-  - name: demo-trigger
-    type: trigger
-    version:
-      counter: 3
