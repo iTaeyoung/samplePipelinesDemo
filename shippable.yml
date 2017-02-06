@@ -9,14 +9,7 @@ build:
   post_ci:
     - ./push.sh
 
-integrations:
-  hub:
-    - integrationName: "dockerhub-integration"
-      type: docker
-  notifications:
-    - integrationName: "triggerDemoPipeline"
-      type: webhook
-      payload:
-        - versionName=$BRANCH.$BUILD_NUMBER
-      on_success: always
-      on_failure: never
+#integrations:
+#  hub:
+#    - integrationName: "dockerhub-integration"
+#      type: docker
