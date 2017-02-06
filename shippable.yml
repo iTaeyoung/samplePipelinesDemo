@@ -9,7 +9,7 @@ build:
   post_ci:
     - ./push.sh
 
-#integrations:
-#  hub:
-#    - integrationName: "dockerhub-integration"
-#      type: docker
+integrations:
+  hub:
+    - integrationName: "dockerhub-integration"
+      type: docker
